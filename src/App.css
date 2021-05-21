@@ -1,38 +1,174 @@
-.App {
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --Red: hsl(0, 100%, 74%);
+  --Green: hsl(154, 59%, 51%);
+  --Light-Gray: hsl(0, 0%, 83%);
+  --Dark-Gray: hsl(249, 10%, 26%);
+  --White: hsl(0, 0%, 100%);
+  --Purple: hsl(248, 32%, 49%);
+  --Light-Purple: hsl(246, 25%, 77%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  position: relative;
+  height: 5%;
+  width: 110%;
+}
+
+body {
+  align-items: center;
+  background: var(--Red);
+  background-image: url('images/bg-intro-desktop.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+
+}
+
+input {
+  border: 2px solid var(--Red);
+}
+
+.container {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  width: 74%;
+}
+
+.learnCode, .infoForm {
+  width: 50%;
+}
+
+.learnCode {
+  color: var(--White);
+  padding-right: 32px;
+  margin: auto 0;
+}
+.learnCode > h1{
+  font-size: 48px;
+  line-height: 1;
+  margin-bottom: 32px;
+}
+
+.mainDemoForm {
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(69, 69, 69);
+}
+
+.trialHeader {
+  background-color: var(--Purple);
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 32px;
+  text-align: center;
+  box-shadow: 5px 5px 10px rgb(69, 69, 69);
+}
+
+.trialHeader > p{
+  color: var(--White);
+  font-weight: 600;
+}
+
+span {
+  color: var(--Light-Purple);
+  font-weight: 400;
+}
+
+span {
+  color: var(--Light-Purple);
+  font-weight: 400;
+}
+
+form{
+  background-color: var(--White);
+  padding: 32px;
+  position: relative;
+}
+input, .trialButton {
+  border: 1px solid lightgray;
+  color: var(--Dark-Gray);
+  font: 500 14px 'Poppins', sans-serif;
+  padding: 10px 32px;
+  border-radius: 5px;
+  margin: 8px 0;
+  outline: none;
+  width: 100%;
+}
+
+.trialButton {
+  background-color: var(--Green);
+  border-bottom: 4px solid var(--Green);
+  color: var(--White);
+  font-size: 16px;
+  padding-bottom: 12px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.trialButton:active{
+  transform: scale(0.98);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.trialButton:hover{
+  cursor: pointer;
+  opacity: 0.8;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input::placeholder{
+  color: var(--Light-Purple);
 }
 
-.App-link {
-  color: #61dafb;
+.footerText{
+  color: var(--Light-Purple);
+  font-size: 10.5px;
+  margin-top: 8px;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footerText >p a {
+  color: var(--Red);
+  font-weight: 700;
 }
+
+/*@media(max-width: 768px) {*/
+
+/*  html, body {*/
+/*    height: auto*/
+/*  }*/
+
+/*  body {*/
+/*    background-image: url("images/bg-intro-mobile.png");*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: top;*/
+/*    background-size: auto;*/
+/*    margin: 5rem 0;*/
+/*  }*/
+
+/*  .learnCode, .infoForm {*/
+/*    width: 100%;*/
+/*  }*/
+
+/*  .learnCode {*/
+/*    margin-bottom: 64px;*/
+/*    text-align: center;*/
+/*  }*/
+
+/*  .container {*/
+/*    width: 90%;*/
+/*    flex-direction: column;*/
+/*  }*/
+
+
+/*}*/
+
