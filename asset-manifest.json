@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/reactAssignment2/static/css/main.990a99ff.chunk.css",
+    "main.js": "/reactAssignment2/static/js/main.7e3d94ff.chunk.js",
+    "main.js.map": "/reactAssignment2/static/js/main.7e3d94ff.chunk.js.map",
+    "runtime-main.js": "/reactAssignment2/static/js/runtime-main.04f1727c.js",
+    "runtime-main.js.map": "/reactAssignment2/static/js/runtime-main.04f1727c.js.map",
+    "static/js/2.d514ed8d.chunk.js": "/reactAssignment2/static/js/2.d514ed8d.chunk.js",
+    "static/js/2.d514ed8d.chunk.js.map": "/reactAssignment2/static/js/2.d514ed8d.chunk.js.map",
+    "static/js/3.ef4a59f9.chunk.js": "/reactAssignment2/static/js/3.ef4a59f9.chunk.js",
+    "static/js/3.ef4a59f9.chunk.js.map": "/reactAssignment2/static/js/3.ef4a59f9.chunk.js.map",
+    "index.html": "/reactAssignment2/index.html",
+    "static/css/main.990a99ff.chunk.css.map": "/reactAssignment2/static/css/main.990a99ff.chunk.css.map",
+    "static/js/2.d514ed8d.chunk.js.LICENSE.txt": "/reactAssignment2/static/js/2.d514ed8d.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/reactAssignment2/static/media/bg-intro-desktop.059183ee.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.04f1727c.js",
+    "static/js/2.d514ed8d.chunk.js",
+    "static/css/main.990a99ff.chunk.css",
+    "static/js/main.7e3d94ff.chunk.js"
+  ]
+}
