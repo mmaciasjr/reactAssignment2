@@ -1,22 +1,17 @@
 import desktop from './images/bg-intro-desktop.png';
-// import mobile from './images/bg-intro-mobile.png';
+import mobile from './images/bg-intro-mobile.png';
 import './App.css';
 
 function App() {
 
     return (
         <div className="App">
-            <>
-                {/*<header>*/}
-
-                {/*</header>*/}
-
-                <main>
-                    <img src={desktop}/>
-                    {/*<img src={mobile}/>*/}
+            <img src={mobile} alt={'mobile view'}/>
+            <img src={desktop} alt={'desktop view'}/>
 
 
-                <div className="container">
+
+
 
                     <div className="learnCode">
                         <h1 className="learnCodeTitle">Learn to code by watching others</h1>
@@ -50,14 +45,12 @@ function App() {
                                 Claim your free trial
                             </div>
                             <div className="footerText">
-                                <p>By clicking the button, you are agreeing to our <span>Terms and Services</span>
+                                <p>By clicking the button, you are agreeing to our <a>Terms and Services</a>
                                 </p>
                             </div>
                         </form>
                     </div>
-                </div>
-                </main>
-            </>
+
         </div>
     );
 }
